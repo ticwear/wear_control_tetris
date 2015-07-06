@@ -1,2 +1,2 @@
 # wear_control_tetris
-Tetris game using smartwatch gesture control.
+通过手表上手势控制的体感俄罗斯方块游戏
