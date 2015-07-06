@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+    Copyright 2013 Simon Willeke
+    contact: hamstercount@hotmail.com
+ -->
+
+<!-- 
+    This file is part of Blockinger.
+
+    Blockinger is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Blockinger is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Blockinger.  If not, see <http://www.gnu.org/licenses/>.
+
+    Diese Datei ist Teil von Blockinger.
+
+    Blockinger ist Freie Software: Sie können es unter den Bedingungen
+    der GNU General Public License, wie von der Free Software Foundation,
+    Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren
+    veröffentlichten Version, weiterverbreiten und/oder modifizieren.
+
+    Blockinger wird in der Hoffnung, dass es nützlich sein wird, aber
+    OHNE JEDE GEWÄHELEISTUNG, bereitgestellt; sogar ohne die implizite
+    Gewährleistung der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
+    Siehe die GNU General Public License für weitere Details.
+
+    Sie sollten eine Kopie der GNU General Public License zusammen mit diesem
+    Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
+  -->
+ 
+<resources>
+
+    <string name="app_name">俄罗斯方块</string>
+    <string name="action_settings">设置</string>
+    <string name="action_backtomain">返回</string>
+    <string name="action_about">关于</string>
+    <string name="action_donate">捐赠</string>
+    <string name="action_help">帮助</string>
+    <string name="startButtonString">新游戏</string>
+    <string name="resumeButtonString">继续游戏</string>
+    <string name="quitButtonString">退出</string>
+    <string name="pausebutton">暂停</string>
+    <string name="holdbuttonstring">Hold</string>
+    <string name="playerNameInputFieldHint">输入玩家名字</string>
+    <string name="highscoreListDescription">高分排行榜</string>
+
+    <string name="startLevelDialogTitle">游戏级别</string>
+    <string name="startLevelDialogCancel">取消</string>
+    <string name="startLevelDialogStart">开始</string>
+    
+    <string name="title_activity_game">俄罗斯方块</string>
+    <string name="title_activity_help">帮助</string>
+    <string name="score_title">得分</string>
+    <string name="level_title">级别</string>
+    <string name="time_title">时间</string>
+    <string name="apm_title">APM</string>
+    <string name="fps_title">FPS</string>
+
+    <string name="defeatDialogTitle">游戏结束</string>
+    <string name="defeatDialogReturn">返回</string>
+    
+    <string name="tab">\u0009</string>
+    
+    <string name="anonymous">无名氏</string>
+    <string name="scoreLabel">得分:</string>
+    <string name="timeLabel">用时:</string>
+    <string name="apmLabel">总APM:</string>
+    <string name="hint">提示: 竖屏与横屏都可以玩哦</string>
+    <string name="highscore_title">高分</string>
+    
+    <string name="musicAuthorNote">音乐制作 pornophonique</string>
+    
+    
+<!-- Preference Strings -->
+    <string name="pref_hand_side">左手戴表</string>
+    <string name="pref_hand_side_title">戴表</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_about">关于</string>
+    <string name="title_activity_donate">捐赠</string>
+    
+    <string name="pref_phantom_summary">显示方块落下的位置</string>
+    <string name="pref_phantom_title">提示位置</string>
+    
+    <string name="pref_fps_summary">当前的RPS将会显示在APM之下</string>
+    <string name="pref_fps_title">显示FPS</string>
+    
+    <string name="pref_popup_summary">成功消除一行后</string>
+    <string name="pref_popup_title">弹出文字</string>
+    
+    <string name="pref_rng_title">方块生成随机算法</string>
+    <string name="pref_rngs_default">sevenbag</string>
+    <string name="pref_rng_summary">选择方块生成的算法. 强烈推荐7-Bag-Randomization，这个算法在俄罗斯方块比赛中被经常使用</string>
+    <string-array name ="randomizer_preference_array">
+        <item>7-Bag-Randomization (默认)</item>
+        <item>一般随机算法</item>
+    </string-array>
+    <string-array name ="randomizer_preference_values">
+        <item>sevenbag</item>
+        <item>plain</item>
+    </string-array>
+    
+    <string name="softdropspeed_pref_title">软下坠速度</string>
+    
+    <string name="movespeed_pref_title">水平移动速度</string>
+    
+    <string name="soundvolume_pref_title">效果音量</string>
+    
+    <string name="musicvolume_pref_title">音乐音量</string>
+    
+    <string name="pref_vibration_button_title">按键震动</string>
+    <string name="pref_vibration_button_summary">按键时短暂的震动</string>
+    
+    <string name="pref_vibration_events_title">事件震动</string>
+    <string name="pref_vibration_events_summary">重要游戏事件发生时震动</string>
+    
+<!-- Advanced Preference Strings -->
+    <string name="pref_button_sound_summary">按键时提供声音反馈</string>
+    <string name="pref_button_sound_title">按键声音</string>
+    
+    <string name="pref_fpslimit_summary">有效的减少电池使用, 但是会使游戏变慢</string>
+    <string name="pref_fpslimit_title">限制FPS</string>
+    
+    <string name="pref_fpslimittext_summary">游戏会尽量保持这个FPS</string>
+    <string name="pref_fpslimittext_title">目标FPS</string>
+    <string name="pref_fpslimittext_default">30</string>
+    
+    <string name="pref_vibDurOffset_summary">增加这个时间来补充手机的震动，单位毫秒</string>
+    <string name="pref_vibDurOffset_title">按键震动持续时间</string>
+    <string name="pref_vibDurOffset_default">15</string>
+    
+    <string name="pref_antialiasing_summary">提高文本的现实效果, 禁用可以提高性能</string>
+    <string name="pref_antialiasing_title">文本反走样</string>
+    
+    <string name="pref_accelerationH_summary">开始移动后的短暂延迟, 对新手有帮助</string>
+    <string name="pref_accelerationH_title">水平加速度</string>
+    
+    <string name="pref_accelerationV_summary">开始移动后的短暂延迟, 对新手有帮助</string>
+    <string name="pref_accelerationV_title">软下坠加速度</string>
+    
+    <string name="pref_layoutswap_summary">交换软下坠和硬下坠的位置</string>
+    <string name="pref_layoutswap_title">交换下坠按钮</string>
+    
+    
+    <string name="pref_version_summary">1.8.2\n点这里查看项目的代码库</string>
+    <string name="pref_version_title">版本</string>
+    <string name="repository_url">https://github.com/vocollapse/Blockinger</string>
+    
+    <string name="pref_license_summary">Blockinger 是一个自由软件：使用GNU GPL协议.\n点此查看协议详细内容</string>
+    <string name="pref_license_title">协议信息</string>
+    <string name="license_url">http://www.gnu.org/licenses/gpl-3.0</string>
+    
+    <string name="pref_license_music_summary">\"lemmings in love (karaoke)\" and \"sad robot (karaoke)\" by Pornophonique. Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany license (CC BY-NC-SA 3.0 DE).\nTouch here to open the artist\'s website</string>
+    <string name="pref_license_music_title">Music Attribution</string>
+    <string name="music_url">http://www.pornophonique.de</string>
+    
+    <string name="pref_author_summary">Simon Willeke\n有关于这个项目的意见和反馈，请点击这里联系作者</string>
+    <string name="pref_author_title">作者</string>
+    <string name="pref_author_url">rasyl@web.de</string>
+    
+    <string name="pref_donate_title">捐赠</string>
+    <string name="pref_donate_summary">If you are grateful for this Software and would like to let the Author benefit as well, you can place a Donation as you like.</string>
+    <string name="donation_url">"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=H6VS9SNRHMJSS"</string>
+	<string name="donate_button">去Paypal捐赠</string>
+    
+    
+    <string name="pref_category_sound">声音</string>
+    <string name="pref_category_vibration">震动</string>
+    <string name="pref_category_other">其它</string>
+    <string name="pref_category_advanced">高级</string>
+    <string name="pref_category_layout">布局</string>
+    
+    
+<!-- Help Menu Strings -->
+    <string name="pref_help_scoring_title">得分</string>
+    <string name="pref_help_scoring_summary">得分怎么计算的？</string>
+    <string name="pref_help_scoring_message">基本消行得分:\n消掉一行100分,\n两行300分,\n三行500分,\n四行800分 (一次消四行叫 \"Tetris\").\n\n连续的Tetris再奖励400分。\n此外玩家如果使用软下坠或者硬下坠也会有奖励。 软下坠一行奖励1分，硬下坠一行奖励2分。</string>
+    
+    <string name="pref_help_levels_title">级别</string>
+    <string name="pref_help_levels_summary">级别是什么意思？</string>
+    <string name="pref_help_levels_message">不同的级别代表不同的难度。\n每增加一个级别速度就会提高10%。\n消掉10行之后速度会增加</string>
+    
+    <string name="pref_help_vibration_title">震动</string>
+    <string name="pref_help_vibration_summary">怎么达到使用震动的最优触觉效果？</string>
+    <string name="pref_help_vibration_message">有些设备上的震动可能会有问题。 \n几乎所有平板设备都不支持震动\n如果您的设备支撑震动但是您没有感觉到，那么请在高级设置里增加\"按键震动时间\"。\n调整后能刚刚感受到就ok了。</string>
+    
+    <string name="pref_help_apm_title">APM</string>
+    <string name="pref_help_apm_summary">APM是什么意思？</string>
+    <string name="pref_help_apm_message">APM 代表 每分钟的动作次数。\n这是衡量玩家手速的方法。</string>
+    
+    <string name="pref_help_fps_title">FPS</string>
+    <string name="pref_help_fps_summary">FPS什么意思?它有什么用？</string>
+    <string name="pref_help_fps_message">FPS 代表 \"每秒的帧数\"。\n它用来度量显示屏的刷新频率。FPS太低会让游戏看起来很卡，FPS太高会消耗过多资源。25-35之间的FPS是兼顾流畅和节电的选择。\nFPS可以在高级设置中限速。</string>
+    
+    <string name="pref_help_randomizer_title">随机生成器</string>
+    <string name="pref_help_randomizer_summary">这两种随机算法有什么区别(高级设置)？</string>
+    <string name="pref_help_randomizer_message">7-Bag-Randomization:\n所有7种方块的随机排列。 这种方法保证玩家在同一行不可能遇到3个一样的方块。\n\n普通的随机算法:\n下一个方块独立同分布的随机产生。</string>
+    
+    <string name="pref_help_resumability_title">可恢复性</string>
+    <string name="pref_help_resumability_summary">游戏被打断之后满足什么条件可以恢复?</string>
+    <string name="pref_help_resumability_message">如果\"暂停\"按钮或者安卓的后退按钮被按，那么是可以恢复的。\n此外，如果玩家通过Home键切换到其它的app并且没有退出Blockinger，那么也是可以恢复的。\n但是如果玩家按了菜单上的退出键，那么游戏就不能恢复了。</string>
+
+    
+</resources>
